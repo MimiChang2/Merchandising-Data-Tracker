@@ -17,5 +17,17 @@ var connection = mysql.createConnection({
 connection.connect(function(err) {
     if(err) throw err;
     // run the start function after the connection is made to prompt the user
-    start();
+    afterConnection();
 });
+
+function afterConnection() {
+    console.log("Selecting all products...\n");
+    connection.query("SELECT * FROM products", function(error, result) {
+        if(error) throw error;
+        // Log all results of the SELECT statement
+        console.log(result);
+        connection.end();
+    });
+}
+
+//afterConnection();
