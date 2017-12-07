@@ -1,5 +1,9 @@
 # bamazon-hw
 
+Below is an explanation of how this app works. This corresponds to Challenge #1.
+Please ONLY grade Challenge #1 , file bamazon.js
+Please do NOT grade challenge 2.
+
 Image 1:
 
 * Description: The first image shows what pops up when the user runs the file in the terminal.

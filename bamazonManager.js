@@ -1,3 +1,6 @@
+//PLEASE DO NOT GRADE THIS PORTION.
+//PLEASE ONLY GRADE CHALLENGE #1
+
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
